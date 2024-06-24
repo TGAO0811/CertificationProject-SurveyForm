@@ -11,15 +11,16 @@
         <h1 id="title"> Survey Form</h1>
         <p id="description"> Please fill out the survey below</p>
         <form id="survey-form">
+            
+            <fieldset>
 
-            <label id="name-label">Name</label>
-            <input id="name" type="text" placeholder="Enter your Name" required/>
+                <label id="name-label" for="name">Name <input id="name" type="text" placeholder="Enter your Name" required/> </label>
 
-            <label id="email-label">Email</label>
-            <input id="email" type="email" placeholder="Enter your Email" required/>
+                <label id="email-label" for="email">Email <input id="email" type="email" placeholder="Enter your Email" required/></label>
 
-            <label id="number-label">Age</label>
-            <input id="number" type="number" min="0" max="90" placeholder="Age">
+                <label id="number-label" for="number">Age <input id="number" type="number" min="0" max="90" placeholder="Age"></label>
+
+            </fieldset>
 
             <select id="dropdown">
                 <option>
